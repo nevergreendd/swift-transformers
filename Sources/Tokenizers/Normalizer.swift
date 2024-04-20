@@ -30,7 +30,7 @@ enum NormalizerType: String {
     case NFC
     case NFKD
     case NFKC
-    case Bert
+    case BertNormalizer
     case Precompiled
     case StripAccents
     case Unknown = ""
